@@ -124,4 +124,8 @@
     <string name="choose_forward_lookup_provider_title">Choose forward lookup provider</string>
     <string name="choose_reverse_lookup_provider_title">Choose reverse lookup provider</string>
 
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="battery_mode">Battery saving mode</string>
+    <string name="battery_mode_label">Set network to 2G when device is locked</string>
+
 </resources>
