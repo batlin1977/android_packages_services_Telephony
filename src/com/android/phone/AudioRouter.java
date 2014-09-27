@@ -55,8 +55,8 @@ import java.util.List;
 
     // flags indicating if the audio stream volume must be reset
     // set these flags to true to fix the low in-call volume on STE devices
-    private boolean resetVolumeAfterMuteChange = false;
-    private boolean resetVolumeAfterAudioModeChange = false;
+    private boolean resetVolumeAfterMuteChange = true;
+    private boolean resetVolumeAfterAudioModeChange = true;
 
     public AudioRouter(Context context, BluetoothManager bluetoothManager,
             WiredHeadsetManager wiredHeadsetManager, CallManager callManager) {
